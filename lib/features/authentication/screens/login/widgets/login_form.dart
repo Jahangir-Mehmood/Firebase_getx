@@ -1,0 +1,39 @@
+
+part of '../login.dart';
+
+class _ULoginForm extends StatelessWidget {
+  const _ULoginForm();
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        TextFormField(
+          decoration: InputDecoration(prefixIcon: Icon(Iconsax.direct_right), labelText: UTexts.email),
+        ),
+        SizedBox(height: USizes.spaceBtwInputFields),
+        TextFormField(
+          decoration: InputDecoration(
+            prefixIcon: Icon(Iconsax.password_check),
+            suffixIcon: Icon(Iconsax.eye),
+            labelText: UTexts.password,
+          ),
+        ),
+        SizedBox(height: USizes.spaceBtwInputFields / 2),
+        Row(
+          children: [
+            Checkbox(value: true, onChanged: (val) {}),
+            Expanded(child: Text(UTexts.rememberMe)),
+            TextButton(onPressed: () {
+              Get.to(()=> ForgetPassword());
+            }, child: Text(UTexts.forgetPassword)),
+          ],
+        ),
+        SizedBox(height: USizes.spaceBtwSections),
+        UElevatedButton(onPressed: () {}, child: Text(UTexts.signIn)),
+        SizedBox(height: USizes.spaceBtwItems / 2),
+        SizedBox(width: double.infinity,child: OutlinedButton(onPressed: () => Get.to(()=> SignupSreen()), child: Text(UTexts.createAccount))),
+      ],
+    );
+  }
+}

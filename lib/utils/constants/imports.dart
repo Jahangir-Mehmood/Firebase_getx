@@ -16,3 +16,6 @@ export 'package:firebase_getx/utils/helpers/device_helpers.dart';
 export 'package:lottie/lottie.dart';
 export 'package:firebase_getx/common/widgets/button/elevated_button.dart';
 export 'package:get/instance_manager.dart';
+export 'package:get/get.dart';
+export 'package:iconsax/iconsax.dart';
+export 'package:firebase_getx/common/style/padding.dart';
