@@ -30,7 +30,7 @@ class _ULoginForm extends StatelessWidget {
           ],
         ),
         SizedBox(height: USizes.spaceBtwSections),
-        UElevatedButton(onPressed: () {}, child: Text(UTexts.signIn)),
+        UElevatedButton(onPressed: () => Get.to(()=> NavigationMenu()), child: Text(UTexts.signIn)),
         SizedBox(height: USizes.spaceBtwItems / 2),
         SizedBox(width: double.infinity,child: OutlinedButton(onPressed: () => Get.to(()=> SignupSreen()), child: Text(UTexts.createAccount))),
       ],

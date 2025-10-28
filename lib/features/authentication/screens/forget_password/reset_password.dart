@@ -1,4 +1,5 @@
 import 'package:firebase_getx/features/authentication/screens/login/login.dart';
+import 'package:firebase_getx/features/authentication/screens/signup/verify_email.dart';
 import 'package:firebase_getx/utils/constants/imports.dart';
 import 'package:flutter/cupertino.dart';
 
@@ -24,7 +25,7 @@ class ResetPasswordScreen extends StatelessWidget {
             SizedBox(height: USizes.spaceBtwItems),
             Text(UTexts.resetPasswordSubTitle,style: Theme.of(context).textTheme.bodyMedium),
             SizedBox(height: USizes.spaceBtwSections),
-            UElevatedButton(onPressed: (){}, child: Text(UTexts.done)),
+            UElevatedButton(onPressed: () => Get.to(()=> VerifyEmailScreen()), child: Text(UTexts.done)),
             SizedBox(
               width: double.infinity,
               child: TextButton(onPressed: (){}, child: Text(UTexts.resendEmail)))

@@ -2,6 +2,7 @@ import 'package:firebase_getx/common/widgets/button/social_button.dart';
 import 'package:firebase_getx/common/widgets/login_signup/form_divider.dart';
 import 'package:firebase_getx/features/authentication/screens/forget_password/forget_password.dart';
 import 'package:firebase_getx/features/authentication/screens/signup/signup.dart';
+import 'package:firebase_getx/navigation_menu.dart';
 import 'package:firebase_getx/utils/constants/imports.dart';
 
 part '../login/widgets/login_header.dart';

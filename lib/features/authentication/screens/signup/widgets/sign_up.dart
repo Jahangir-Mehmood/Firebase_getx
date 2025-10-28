@@ -1,12 +1,9 @@
-
-
+import 'package:firebase_getx/features/authentication/screens/signup/verify_email.dart';
 import 'package:firebase_getx/features/authentication/screens/signup/widgets/privacy_policy_check_box.dart';
 import 'package:firebase_getx/utils/constants/imports.dart';
 
 class USignUp extends StatelessWidget {
-  const USignUp({
-    super.key,
-  });
+  const USignUp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -32,23 +29,20 @@ class USignUp extends StatelessWidget {
         ),
         SizedBox(height: USizes.spaceBtwInputFields),
         TextFormField(
-          decoration: InputDecoration(
-            prefixIcon: Icon(Iconsax.direct_right),
-            label: Text(UTexts.phoneNumber),
-          ),
+          decoration: InputDecoration(prefixIcon: Icon(Iconsax.direct_right), label: Text(UTexts.phoneNumber)),
         ),
         SizedBox(height: USizes.spaceBtwInputFields),
         TextFormField(
-              decoration: InputDecoration(
-                prefixIcon: Icon(Iconsax.password_check),
-                suffixIcon: Icon(Iconsax.eye),
-                labelText: UTexts.password,
-              ),
-            ),
-             SizedBox(height: USizes.spaceBtwInputFields / 2),
-             UPrivatePolicyCheckBox(),
-             SizedBox(height: USizes.spaceBtwItems),
-             UElevatedButton(onPressed: (){}, child: Text(UTexts.createAccount))
+          decoration: InputDecoration(
+            prefixIcon: Icon(Iconsax.password_check),
+            suffixIcon: Icon(Iconsax.eye),
+            labelText: UTexts.password,
+          ),
+        ),
+        SizedBox(height: USizes.spaceBtwInputFields / 2),
+        UPrivatePolicyCheckBox(),
+        SizedBox(height: USizes.spaceBtwItems),
+        UElevatedButton(onPressed: () => Get.to(() => VerifyEmailScreen()), child: Text(UTexts.createAccount)),
       ],
     );
   }
