@@ -1,6 +1,6 @@
 import 'package:firebase_getx/utils/constants/imports.dart';
 
-class UAppBarTheme{
+class UAppBarTheme {
   UAppBarTheme._();
 
   static const lightAppBarTheme = AppBarTheme(
@@ -9,9 +9,9 @@ class UAppBarTheme{
     scrolledUnderElevation: 0,
     backgroundColor: Colors.transparent,
     surfaceTintColor: Colors.transparent,
-    iconTheme: IconThemeData(color: UColors.black, size: USizes.iconMd),
-    actionsIconTheme: IconThemeData(color: UColors.black, size: USizes.iconMd),
-    titleTextStyle: TextStyle(fontSize: 18.0, fontWeight: FontWeight.w600, color: UColors.black),
+    iconTheme: IconThemeData(color: uBlack, size: USizes.iconMd),
+    actionsIconTheme: IconThemeData(color: uBlack, size: USizes.iconMd),
+    titleTextStyle: TextStyle(fontSize: 18.0, fontWeight: FontWeight.w600, color: uBlack),
   );
   static const darkAppBarTheme = AppBarTheme(
     elevation: 0,
@@ -19,8 +19,8 @@ class UAppBarTheme{
     scrolledUnderElevation: 0,
     backgroundColor: Colors.transparent,
     surfaceTintColor: Colors.transparent,
-    iconTheme: IconThemeData(color: UColors.white, size: USizes.iconMd),
-    actionsIconTheme: IconThemeData(color: UColors.white, size: USizes.iconMd),
-    titleTextStyle: TextStyle(fontSize: 18.0, fontWeight: FontWeight.w600, color: UColors.white),
+    iconTheme: IconThemeData(color: uWhite, size: USizes.iconMd),
+    actionsIconTheme: IconThemeData(color: uWhite, size: USizes.iconMd),
+    titleTextStyle: TextStyle(fontSize: 18.0, fontWeight: FontWeight.w600, color: uWhite),
   );
 }

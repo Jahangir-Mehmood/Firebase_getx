@@ -2,8 +2,8 @@ import 'package:firebase_getx/common/widgets/circuler_shapes/circular_container.
 import 'package:firebase_getx/common/widgets/circuler_shapes/rounded_edges_comtainer.dart';
 import 'package:firebase_getx/utils/constants/imports.dart';
 
-class UPrimaryHeaderContainer extends StatelessWidget {
-  const UPrimaryHeaderContainer({super.key, required this.child});
+class uPrimaryHeaderContainer extends StatelessWidget {
+  const uPrimaryHeaderContainer({super.key, required this.child});
 
   final Widget child;
 
@@ -11,7 +11,7 @@ class UPrimaryHeaderContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return URoundedEdgesContainer(
       child: Container(
-        color: UColors.primary,
+        color: uPrimary,
         height: UDeviceHelper.getScreenHeight(context) * 0.4,
         child: Stack(
           children: [
@@ -21,7 +21,7 @@ class UPrimaryHeaderContainer extends StatelessWidget {
               child: UCirculeContainer(
                 height: UDeviceHelper.getScreenHeight(context) * 0.4,
                 width: UDeviceHelper.getScreenHeight(context) * 0.4,
-                backGroundColor: UColors.white.withValues(alpha: 0.1),
+                backGroundColor: uWhite.withValues(alpha: 0.1),
               ),
             ),
             Positioned(
@@ -30,7 +30,7 @@ class UPrimaryHeaderContainer extends StatelessWidget {
               child: UCirculeContainer(
                 height: UDeviceHelper.getScreenHeight(context) * 0.4,
                 width: UDeviceHelper.getScreenHeight(context) * 0.4,
-                backGroundColor: UColors.white.withValues(alpha: 0.1),
+                backGroundColor: uWhite.withValues(alpha: 0.1),
               ),
             ),
             child,
@@ -40,5 +40,3 @@ class UPrimaryHeaderContainer extends StatelessWidget {
     );
   }
 }
-
-

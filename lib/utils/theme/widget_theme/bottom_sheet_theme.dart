@@ -5,16 +5,16 @@ class UBottomSheetTheme {
 
   static BottomSheetThemeData lightBottomSheetTheme = BottomSheetThemeData(
     showDragHandle: true,
-    backgroundColor: UColors.white,
-    modalBackgroundColor: UColors.white,
+    backgroundColor: uWhite,
+    modalBackgroundColor: uWhite,
     constraints: const BoxConstraints(minWidth: double.infinity),
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
   );
 
   static BottomSheetThemeData darkBottomSheetTheme = BottomSheetThemeData(
     showDragHandle: true,
-    backgroundColor: UColors.black,
-    modalBackgroundColor: UColors.black,
+    backgroundColor: uBlack,
+    modalBackgroundColor: uBlack,
     constraints: const BoxConstraints(minWidth: double.infinity),
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
   );

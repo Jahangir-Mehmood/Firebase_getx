@@ -18,7 +18,7 @@ class USocialButtond extends StatelessWidget {
   Container buildButton(String image, VoidCallback onPress) {
     return Container(
       decoration: BoxDecoration(
-        border: Border.all(color: UColors.grey),
+        border: Border.all(color: uGrey),
         borderRadius: BorderRadius.circular(100),
       ),
       child: IconButton(

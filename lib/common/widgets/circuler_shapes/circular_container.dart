@@ -6,7 +6,7 @@ class UCirculeContainer extends StatelessWidget {
     this.height = 400,
     this.width = 400,
     this.radius = 400,
-    this.backGroundColor = UColors.white,
+    this.backGroundColor = uWhite,
     this.padding,
     this.margin,
   });

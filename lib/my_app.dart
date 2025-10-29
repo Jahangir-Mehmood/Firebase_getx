@@ -1,4 +1,3 @@
-import 'package:firebase_getx/features/authentication/screens/onboarding/onboarding.dart';
 import 'package:firebase_getx/features/shop/screens/home/home.dart';
 import 'package:firebase_getx/utils/constants/imports.dart';
 

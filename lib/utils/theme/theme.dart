@@ -1,8 +1,4 @@
-
 import 'package:firebase_getx/utils/constants/imports.dart';
-
-
-
 
 class UAppTheme {
   // private constructor
@@ -12,11 +8,11 @@ class UAppTheme {
     useMaterial3: true,
     fontFamily: 'Nunito',
     brightness: Brightness.light,
-    primaryColor: UColors.primary,
-    disabledColor: UColors.grey,
+    primaryColor: uPrimary,
+    disabledColor: uGrey,
     textTheme: UTextTheme.lightTextTheme,
     chipTheme: UChipTheme.lightChipTheme,
-    scaffoldBackgroundColor: UColors.white,
+    scaffoldBackgroundColor: uWhite,
     appBarTheme: UAppBarTheme.lightAppBarTheme,
     checkboxTheme: UCheckboxTheme.lightCheckboxTheme,
     bottomSheetTheme: UBottomSheetTheme.lightBottomSheetTheme,
@@ -29,11 +25,11 @@ class UAppTheme {
     useMaterial3: true,
     fontFamily: 'Nunito',
     brightness: Brightness.dark,
-    primaryColor: UColors.primary,
-    disabledColor: UColors.grey,
+    primaryColor: uPrimary,
+    disabledColor: uGrey,
     textTheme: UTextTheme.darkTextTheme,
     chipTheme: UChipTheme.darkChipTheme,
-    scaffoldBackgroundColor: UColors.black,
+    scaffoldBackgroundColor: uBlack,
     appBarTheme: UAppBarTheme.darkAppBarTheme,
     checkboxTheme: UCheckboxTheme.darkCheckboxTheme,
     bottomSheetTheme: UBottomSheetTheme.darkBottomSheetTheme,

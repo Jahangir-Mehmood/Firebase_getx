@@ -1,24 +1,22 @@
 import 'package:firebase_getx/utils/constants/imports.dart';
 
-class UChipTheme{
-
+class UChipTheme {
   // private constructor
   UChipTheme._();
 
-
   static ChipThemeData lightChipTheme = ChipThemeData(
-    disabledColor: UColors.grey.withValues(alpha: 0.4),
-    labelStyle: const TextStyle(color: UColors.black),
-    selectedColor: UColors.primary,
+    disabledColor: uGrey.withValues(alpha: 0.4),
+    labelStyle: const TextStyle(color: uBlack),
+    selectedColor: uPrimary,
     padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 12),
-    checkmarkColor: UColors.white,
+    checkmarkColor: uWhite,
   );
 
   static ChipThemeData darkChipTheme = const ChipThemeData(
-    disabledColor: UColors.darkerGrey,
-    labelStyle: TextStyle(color: UColors.white),
-    selectedColor: UColors.primary,
+    disabledColor: uDarkerGrey,
+    labelStyle: TextStyle(color: uWhite),
+    selectedColor: uPrimary,
     padding: EdgeInsets.symmetric(horizontal: 12.0, vertical: 12),
-    checkmarkColor: UColors.white,
+    checkmarkColor: uWhite,
   );
 }

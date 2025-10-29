@@ -19,3 +19,4 @@ export 'package:get/instance_manager.dart';
 export 'package:get/get.dart';
 export 'package:iconsax/iconsax.dart';
 export 'package:firebase_getx/common/style/padding.dart';
+export 'package:firebase_getx/utils/helpers/helper_functions.dart';
