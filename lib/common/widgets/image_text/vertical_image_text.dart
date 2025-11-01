@@ -23,10 +23,9 @@ class UVerticalImageText extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          UCirculeContainer(
+          UCircularContainer(
             height: 56,
             width: 56,
-            backGroundColor: backgroundColor ?? uWhite,
             padding: EdgeInsets.all(uSm),
             child: Image.asset(image, fit: BoxFit.cover),
           ),

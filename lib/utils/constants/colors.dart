@@ -67,7 +67,7 @@ const Color uSuccess = Color(0xFF388E3C);
 const Color uWarning = Color(0xFFF57C00);
 const Color uInfo = Color(0xFF1976D2);
 
-const Color yellow = Color(0xFFFFE24B);
+const Color uYellow = Color(0xFFFFE24B);
 
 // Neutral Shades
 const Color uBlack = Color(0xFF232323);

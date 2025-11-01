@@ -8,9 +8,9 @@ class USocialButtond extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        buildButton(UImages.googleIcon, () {}),
+        buildButton(googleIcon, () {}),
         SizedBox(width: uSpaceBtwItems),
-        buildButton(UImages.facebookIcon, () {}),
+        buildButton(facebookIcon, () {}),
       ],
     );
   }

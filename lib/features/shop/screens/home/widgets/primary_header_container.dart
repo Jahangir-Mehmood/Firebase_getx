@@ -18,19 +18,19 @@ class UPrimaryHeaderContainer extends StatelessWidget {
             Positioned(
               top: -150,
               right: -160,
-              child: UCirculeContainer(
+              child: UCircularContainer(
                 height: uHomePrimaryHeaderHeight,
                 width: uHomePrimaryHeaderHeight,
-                backGroundColor: uWhite.withValues(alpha: 0.1),
+                backgroundColor: uWhite.withValues(alpha: 0.1),
               ),
             ),
             Positioned(
               top: 50,
               right: -250,
-              child: UCirculeContainer(
+              child: UCircularContainer(
                 height: uHomePrimaryHeaderHeight,
                 width: uHomePrimaryHeaderHeight,
-                backGroundColor: uWhite.withValues(alpha: 0.1),
+                backgroundColor: uWhite.withValues(alpha: 0.1),
               ),
             ),
             child,

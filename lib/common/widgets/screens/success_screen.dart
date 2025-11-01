@@ -16,7 +16,7 @@ class SuccessScreen extends StatelessWidget {
           padding: UPadding.screenPadding,
           child: Column(
             children: [
-              Image.asset(UImages.accountCreatedImage, height: UDeviceHelper.getScreenWidth(context) * 0.6),
+              Image.asset(accountCreatedImage, height: UDeviceHelper.getScreenWidth(context) * 0.6),
               SizedBox(height: uSpaceBtwItems),
               Text(
                 UTexts.accountCreatedTitle,

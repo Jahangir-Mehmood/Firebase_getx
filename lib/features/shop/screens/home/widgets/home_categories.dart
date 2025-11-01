@@ -20,7 +20,7 @@ class UHomeCategories extends StatelessWidget {
               scrollDirection: Axis.horizontal,
               itemCount: 10,
               itemBuilder: (context, index) {
-                return UVerticalImageText(title: 'Style Sports', image: UImages.sportsIcon, textColor: uWhite);
+                return UVerticalImageText(title: 'Style Sports', image: sportsIcon, textColor: uWhite);
               },
             ),
           ),
@@ -29,5 +29,3 @@ class UHomeCategories extends StatelessWidget {
     );
   }
 }
-
-

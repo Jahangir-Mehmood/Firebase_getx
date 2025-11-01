@@ -1,29 +1,31 @@
 import 'package:firebase_getx/utils/constants/imports.dart';
 
-class UCirculeContainer extends StatelessWidget {
-  const UCirculeContainer({
-    super.key,
-    this.height = 400,
-    this.width = 400,
-    this.radius = 400,
-    this.backGroundColor = uWhite,
-    this.padding,
-    this.margin, this.child,
-  });
+class UCircularContainer extends StatelessWidget {
+  const UCircularContainer(
+      {super.key,
+      this.height = 400,
+      this.width = 400,
+      this.backgroundColor = uWhite,
+      this.padding,
+      this.margin,
+      this.child});
 
-  final double height, width, radius;
-  final Color backGroundColor;
+  final double height, width;
+  final Color backgroundColor;
   final EdgeInsetsGeometry? padding, margin;
   final Widget? child;
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: height,
-      height: width,
+      height: height,
+      width: width,
       padding: padding,
       margin: margin,
-      decoration: BoxDecoration(color: backGroundColor, borderRadius: BorderRadius.circular(radius)),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(1000),
+        color: backgroundColor,
+      ),
       child: child,
     );
   }

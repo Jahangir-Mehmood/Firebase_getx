@@ -7,27 +7,26 @@ class OnBoardingPage extends StatelessWidget {
 
   /// Screen 1
   const OnBoardingPage.first({super.key})
-      : animation = UImages.onboarding1Animation,
-        title = UTexts.onBoardingTitle1,
-        subTitle = UTexts.onBoardingSubTitle1;
+    : animation = onboarding1Animation,
+      title = UTexts.onBoardingTitle1,
+      subTitle = UTexts.onBoardingSubTitle1;
+
   /// Screen 2
   const OnBoardingPage.second({super.key})
-      : animation = UImages.onboarding2Animation,
-        title = UTexts.onBoardingTitle2,
-        subTitle = UTexts.onBoardingSubTitle2;
+    : animation = onboarding2Animation,
+      title = UTexts.onBoardingTitle2,
+      subTitle = UTexts.onBoardingSubTitle2;
 
   /// Screen 3
   const OnBoardingPage.third({super.key})
-      : animation = UImages.onboarding3Animation,
-        title = UTexts.onBoardingTitle3,
-        subTitle = UTexts.onBoardingSubTitle3;
+    : animation = onboarding3Animation,
+      title = UTexts.onBoardingTitle3,
+      subTitle = UTexts.onBoardingSubTitle3;
 
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.only(
-        top: UDeviceHelper.getAppBarHeight(),
-      ),
+      padding: EdgeInsets.only(top: UDeviceHelper.getAppBarHeight()),
       child: Column(
         children: [
           Lottie.asset(animation),
@@ -38,4 +37,3 @@ class OnBoardingPage extends StatelessWidget {
     );
   }
 }
-

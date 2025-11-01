@@ -17,7 +17,7 @@ class VerifyEmailScreen extends StatelessWidget {
           padding: UPadding.screenPadding,
           child: Column(
             children: [
-              Image.asset(UImages.mailSentImage, height: UDeviceHelper.getScreenWidth(context) * 0.6),
+              Image.asset(mailSentImage, height: UDeviceHelper.getScreenWidth(context) * 0.6),
               SizedBox(height: uSpaceBtwItems),
               Text(UTexts.verifyEmailTitle, style: Theme.of(context).textTheme.headlineMedium),
               SizedBox(height: uSpaceBtwItems),
