@@ -9,7 +9,7 @@ class USocialButtond extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         buildButton(UImages.googleIcon, () {}),
-        SizedBox(width: USizes.spaceBtwItems),
+        SizedBox(width: uSpaceBtwItems),
         buildButton(UImages.facebookIcon, () {}),
       ],
     );
@@ -23,7 +23,7 @@ class USocialButtond extends StatelessWidget {
       ),
       child: IconButton(
         onPressed: onPress,
-        icon: Image.asset(image, height: USizes.iconMd, width: USizes.iconMd),
+        icon: Image.asset(image, height: uIconMd, width: uIconMd),
       ),
     );
   }

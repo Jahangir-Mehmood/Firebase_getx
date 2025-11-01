@@ -9,8 +9,8 @@ class UOutlinedButtonTheme {
       foregroundColor: uDark,
       side: const BorderSide(color: uBorderPrimary),
       textStyle: const TextStyle(fontSize: 16, color: uBlack, fontWeight: FontWeight.w600),
-      padding: const EdgeInsets.symmetric(vertical: USizes.buttonHeight, horizontal: 20),
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(USizes.buttonRadius)),
+      padding: const EdgeInsets.symmetric(vertical: uButtonHeight, horizontal: 20),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(uButtonRadius)),
     ),
   );
 
@@ -19,8 +19,8 @@ class UOutlinedButtonTheme {
       foregroundColor: uLight,
       side: const BorderSide(color: uBorderPrimary),
       textStyle: const TextStyle(fontSize: 16, color: uTextWhite, fontWeight: FontWeight.w600),
-      padding: const EdgeInsets.symmetric(vertical: USizes.buttonHeight, horizontal: 20),
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(USizes.buttonRadius)),
+      padding: const EdgeInsets.symmetric(vertical: uButtonHeight, horizontal: 20),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(uButtonRadius)),
     ),
   );
 }

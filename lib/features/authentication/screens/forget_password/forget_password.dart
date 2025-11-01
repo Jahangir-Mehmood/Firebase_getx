@@ -14,11 +14,11 @@ class ForgetPassword extends StatelessWidget {
           child: Column(
             children: [
               Text(UTexts.forgetPasswordTitle, style: Theme.of(context).textTheme.headlineMedium),
-              SizedBox(height: USizes.spaceBtwItems / 2),
+              SizedBox(height: uSpaceBtwItems / 2),
               Text(UTexts.forgetPasswordSubTitle, style: Theme.of(context).textTheme.labelMedium),
-              SizedBox(height: USizes.spaceBtwSections * 2),
+              SizedBox(height: uSpaceBtwSections * 2),
               TextFormField(decoration: InputDecoration(prefixIcon: Icon(Iconsax.direct_right))),
-              SizedBox(height: USizes.spaceBtwItems),
+              SizedBox(height: uSpaceBtwItems),
               UElevatedButton(
                 onPressed: () {
                   Get.to(() => ResetPasswordScreen());

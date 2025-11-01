@@ -11,9 +11,9 @@ class UElevatedButtonTheme {
       disabledForegroundColor: uDarkGrey,
       disabledBackgroundColor: uButtonDisabled,
       side: const BorderSide(color: uLight),
-      padding: const EdgeInsets.symmetric(vertical: USizes.buttonHeight),
+      padding: const EdgeInsets.symmetric(vertical: uButtonHeight),
       textStyle: const TextStyle(fontSize: 16, color: uTextWhite, fontWeight: FontWeight.w600),
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(USizes.buttonRadius)),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(uButtonRadius)),
     ),
   );
 
@@ -25,9 +25,9 @@ class UElevatedButtonTheme {
       disabledForegroundColor: uDarkGrey,
       disabledBackgroundColor: uDarkerGrey,
       side: const BorderSide(color: uPrimary),
-      padding: const EdgeInsets.symmetric(vertical: USizes.buttonHeight),
+      padding: const EdgeInsets.symmetric(vertical: uButtonHeight),
       textStyle: const TextStyle(fontSize: 16, color: uTextWhite, fontWeight: FontWeight.w600),
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(USizes.buttonRadius)),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(uButtonRadius)),
     ),
   );
 }

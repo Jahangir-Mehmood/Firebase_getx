@@ -16,20 +16,23 @@ class ResetPasswordScreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Padding(
           padding: UPadding.screenPadding,
-          child: Column(children: [
-            Image.asset(UImages.mailSentImage,height: UDeviceHelper.getScreenWidth(context) * 0.6),
-            SizedBox(height: USizes.spaceBtwItems),
-            Text(UTexts.resetPasswordTitle,style: Theme.of(context).textTheme.headlineMedium),
-            SizedBox(height: USizes.spaceBtwItems),
-            Text('UnKnowPro@gmail.com',style: Theme.of(context).textTheme.bodyMedium),
-            SizedBox(height: USizes.spaceBtwItems),
-            Text(UTexts.resetPasswordSubTitle,style: Theme.of(context).textTheme.bodyMedium),
-            SizedBox(height: USizes.spaceBtwSections),
-            UElevatedButton(onPressed: () => Get.to(()=> VerifyEmailScreen()), child: Text(UTexts.done)),
-            SizedBox(
-              width: double.infinity,
-              child: TextButton(onPressed: (){}, child: Text(UTexts.resendEmail)))
-          ]),
+          child: Column(
+            children: [
+              Image.asset(UImages.mailSentImage, height: UDeviceHelper.getScreenWidth(context) * 0.6),
+              SizedBox(height: uSpaceBtwItems),
+              Text(UTexts.resetPasswordTitle, style: Theme.of(context).textTheme.headlineMedium),
+              SizedBox(height: uSpaceBtwItems),
+              Text('UnKnowPro@gmail.com', style: Theme.of(context).textTheme.bodyMedium),
+              SizedBox(height: uSpaceBtwItems),
+              Text(UTexts.resetPasswordSubTitle, style: Theme.of(context).textTheme.bodyMedium),
+              SizedBox(height: uSpaceBtwSections),
+              UElevatedButton(onPressed: () => Get.to(() => VerifyEmailScreen()), child: Text(UTexts.done)),
+              SizedBox(
+                width: double.infinity,
+                child: TextButton(onPressed: () {}, child: Text(UTexts.resendEmail)),
+              ),
+            ],
+          ),
         ),
       ),
     );

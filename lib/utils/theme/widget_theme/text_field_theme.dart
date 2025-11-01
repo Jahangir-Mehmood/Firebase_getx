@@ -7,28 +7,28 @@ class UTextFormFieldTheme {
     errorMaxLines: 3,
     prefixIconColor: uDarkGrey,
     suffixIconColor: uDarkGrey,
-    labelStyle: const TextStyle().copyWith(fontSize: USizes.fontSizeMd, color: uBlack),
-    hintStyle: const TextStyle().copyWith(fontSize: USizes.fontSizeSm, color: uBlack),
+    labelStyle: const TextStyle().copyWith(fontSize: uFontSizeMd, color: uBlack),
+    hintStyle: const TextStyle().copyWith(fontSize: uFontSizeSm, color: uBlack),
     errorStyle: const TextStyle().copyWith(fontStyle: FontStyle.normal),
     floatingLabelStyle: const TextStyle().copyWith(color: uBlack.withValues(alpha: 0.8)),
     border: const OutlineInputBorder().copyWith(
-      borderRadius: BorderRadius.circular(USizes.inputFieldRadius),
+      borderRadius: BorderRadius.circular(uInputFieldRadius),
       borderSide: const BorderSide(width: 1, color: uGrey),
     ),
     enabledBorder: const OutlineInputBorder().copyWith(
-      borderRadius: BorderRadius.circular(USizes.inputFieldRadius),
+      borderRadius: BorderRadius.circular(uInputFieldRadius),
       borderSide: const BorderSide(width: 1, color: uGrey),
     ),
     focusedBorder: const OutlineInputBorder().copyWith(
-      borderRadius: BorderRadius.circular(USizes.inputFieldRadius),
+      borderRadius: BorderRadius.circular(uInputFieldRadius),
       borderSide: const BorderSide(width: 1, color: uDark),
     ),
     errorBorder: const OutlineInputBorder().copyWith(
-      borderRadius: BorderRadius.circular(USizes.inputFieldRadius),
+      borderRadius: BorderRadius.circular(uInputFieldRadius),
       borderSide: const BorderSide(width: 1, color: uWarning),
     ),
     focusedErrorBorder: const OutlineInputBorder().copyWith(
-      borderRadius: BorderRadius.circular(USizes.inputFieldRadius),
+      borderRadius: BorderRadius.circular(uInputFieldRadius),
       borderSide: const BorderSide(width: 2, color: uWarning),
     ),
   );
@@ -37,27 +37,27 @@ class UTextFormFieldTheme {
     errorMaxLines: 2,
     prefixIconColor: uDarkGrey,
     suffixIconColor: uDarkGrey,
-    labelStyle: const TextStyle().copyWith(fontSize: USizes.fontSizeMd, color: uWhite),
-    hintStyle: const TextStyle().copyWith(fontSize: USizes.fontSizeSm, color: uWhite),
+    labelStyle: const TextStyle().copyWith(fontSize: uFontSizeMd, color: uWhite),
+    hintStyle: const TextStyle().copyWith(fontSize: uFontSizeSm, color: uWhite),
     floatingLabelStyle: const TextStyle().copyWith(color: uWhite.withValues(alpha: 0.8)),
     border: const OutlineInputBorder().copyWith(
-      borderRadius: BorderRadius.circular(USizes.inputFieldRadius),
+      borderRadius: BorderRadius.circular(uInputFieldRadius),
       borderSide: const BorderSide(width: 1, color: uDarkGrey),
     ),
     enabledBorder: const OutlineInputBorder().copyWith(
-      borderRadius: BorderRadius.circular(USizes.inputFieldRadius),
+      borderRadius: BorderRadius.circular(uInputFieldRadius),
       borderSide: const BorderSide(width: 1, color: uDarkGrey),
     ),
     focusedBorder: const OutlineInputBorder().copyWith(
-      borderRadius: BorderRadius.circular(USizes.inputFieldRadius),
+      borderRadius: BorderRadius.circular(uInputFieldRadius),
       borderSide: const BorderSide(width: 1, color: uWhite),
     ),
     errorBorder: const OutlineInputBorder().copyWith(
-      borderRadius: BorderRadius.circular(USizes.inputFieldRadius),
+      borderRadius: BorderRadius.circular(uInputFieldRadius),
       borderSide: const BorderSide(width: 1, color: uWarning),
     ),
     focusedErrorBorder: const OutlineInputBorder().copyWith(
-      borderRadius: BorderRadius.circular(USizes.inputFieldRadius),
+      borderRadius: BorderRadius.circular(uInputFieldRadius),
       borderSide: const BorderSide(width: 2, color: uWarning),
     ),
   );

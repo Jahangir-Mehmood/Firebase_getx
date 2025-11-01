@@ -5,5 +5,5 @@ class UPadding{
   UPadding._();
 
 
-  static const EdgeInsetsGeometry screenPadding = EdgeInsets.all(USizes.defaultSpace);
+  static const EdgeInsetsGeometry screenPadding = EdgeInsets.all(uDefaultSpace);
 }

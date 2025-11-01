@@ -8,12 +8,13 @@ class UCirculeContainer extends StatelessWidget {
     this.radius = 400,
     this.backGroundColor = uWhite,
     this.padding,
-    this.margin,
+    this.margin, this.child,
   });
 
   final double height, width, radius;
   final Color backGroundColor;
   final EdgeInsetsGeometry? padding, margin;
+  final Widget? child;
 
   @override
   Widget build(BuildContext context) {
@@ -23,6 +24,7 @@ class UCirculeContainer extends StatelessWidget {
       padding: padding,
       margin: margin,
       decoration: BoxDecoration(color: backGroundColor, borderRadius: BorderRadius.circular(radius)),
+      child: child,
     );
   }
 }

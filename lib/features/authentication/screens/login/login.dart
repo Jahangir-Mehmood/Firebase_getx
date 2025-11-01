@@ -5,16 +5,14 @@ import 'package:firebase_getx/features/authentication/screens/signup/signup.dart
 import 'package:firebase_getx/navigation_menu.dart';
 import 'package:firebase_getx/utils/constants/imports.dart';
 
-part '../login/widgets/login_header.dart';
 part '../login/widgets/login_form.dart';
+part '../login/widgets/login_header.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    
-
     return Scaffold(
       appBar: AppBar(),
       body: SingleChildScrollView(
@@ -24,11 +22,11 @@ class LoginScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               _ULoginHeader(),
-              SizedBox(height: USizes.spaceBtwSections),
+              SizedBox(height: uSpaceBtwSections),
               _ULoginForm(),
-              SizedBox(height: USizes.spaceBtwSections),
+              SizedBox(height: uSpaceBtwSections),
               UFormDivider(title: UTexts.orSignInWith),
-              SizedBox(height: USizes.spaceBtwSections),
+              SizedBox(height: uSpaceBtwSections),
               USocialButtond(),
             ],
           ),
@@ -37,10 +35,3 @@ class LoginScreen extends StatelessWidget {
     );
   }
 }
-
-
-
-
-
-
-

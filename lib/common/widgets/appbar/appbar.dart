@@ -21,7 +21,7 @@ class UAppBar extends StatelessWidget implements PreferredSizeWidget {
     bool dark = UHelperFunctions.isDarkMode(context);
 
     return Padding(
-      padding: EdgeInsets.symmetric(horizontal: USizes.md),
+      padding: EdgeInsets.symmetric(horizontal: uMd),
       child: AppBar(
         automaticallyImplyLeading: false,
         leading: showBackArrow

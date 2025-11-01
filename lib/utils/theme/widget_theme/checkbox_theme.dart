@@ -4,7 +4,7 @@ class UCheckboxTheme {
   UCheckboxTheme._();
 
   static CheckboxThemeData lightCheckboxTheme = CheckboxThemeData(
-    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(USizes.xs)),
+    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(uXs)),
     checkColor: WidgetStateProperty.resolveWith((states) {
       if (states.contains(WidgetState.selected)) {
         return uWhite;
@@ -22,7 +22,7 @@ class UCheckboxTheme {
   );
 
   static CheckboxThemeData darkCheckboxTheme = CheckboxThemeData(
-    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(USizes.xs)),
+    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(uXs)),
     checkColor: WidgetStateProperty.resolveWith((states) {
       if (states.contains(WidgetState.selected)) {
         return uWhite;

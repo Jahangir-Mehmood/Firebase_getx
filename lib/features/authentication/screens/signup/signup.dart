@@ -17,14 +17,14 @@ class SignupSreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(UTexts.signupTitle, style: Theme.of(context).textTheme.headlineMedium),
-              SizedBox(height: USizes.spaceBtwSections),
+              SizedBox(height: uSpaceBtwSections),
               USignUp(),
               // _ULoginForm(),
-              SizedBox(height: USizes.spaceBtwSections),
+              SizedBox(height: uSpaceBtwSections),
               UFormDivider(title: UTexts.orSignupWith),
-              SizedBox(height: USizes.spaceBtwSections),
-              USocialButtond()
-              
+              SizedBox(height: uSpaceBtwSections),
+              USocialButtond(),
+
               // USocialButtond(),
             ],
           ),
@@ -33,5 +33,3 @@ class SignupSreen extends StatelessWidget {
     );
   }
 }
-
-

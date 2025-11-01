@@ -16,7 +16,7 @@ class USignUp extends StatelessWidget {
                 decoration: InputDecoration(prefixIcon: Icon(Iconsax.user), label: Text(UTexts.firstName)),
               ),
             ),
-            SizedBox(width: USizes.spaceBtwInputFields),
+            SizedBox(width: uSpaceBtwInputFields),
             Expanded(
               child: TextFormField(
                 decoration: InputDecoration(prefixIcon: Icon(Iconsax.user), label: Text(UTexts.lastName)),
@@ -27,11 +27,11 @@ class USignUp extends StatelessWidget {
         TextFormField(
           decoration: InputDecoration(prefixIcon: Icon(Iconsax.direct_right), label: Text(UTexts.email)),
         ),
-        SizedBox(height: USizes.spaceBtwInputFields),
+        SizedBox(height: uSpaceBtwInputFields),
         TextFormField(
           decoration: InputDecoration(prefixIcon: Icon(Iconsax.direct_right), label: Text(UTexts.phoneNumber)),
         ),
-        SizedBox(height: USizes.spaceBtwInputFields),
+        SizedBox(height: uSpaceBtwInputFields),
         TextFormField(
           decoration: InputDecoration(
             prefixIcon: Icon(Iconsax.password_check),
@@ -39,9 +39,9 @@ class USignUp extends StatelessWidget {
             labelText: UTexts.password,
           ),
         ),
-        SizedBox(height: USizes.spaceBtwInputFields / 2),
+        SizedBox(height: uSpaceBtwInputFields / 2),
         UPrivatePolicyCheckBox(),
-        SizedBox(height: USizes.spaceBtwItems),
+        SizedBox(height: uSpaceBtwItems),
         UElevatedButton(onPressed: () => Get.to(() => VerifyEmailScreen()), child: Text(UTexts.createAccount)),
       ],
     );
