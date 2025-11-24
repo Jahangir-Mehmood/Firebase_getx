@@ -1,3 +1,4 @@
+import 'package:firebase_getx/common/widgets/layouts/grid_layout.dart';
 import 'package:firebase_getx/features/shop/controllers/home/home_controller.dart';
 import 'package:firebase_getx/utils/constants/imports.dart';
 
@@ -15,6 +16,7 @@ class HomeScreen extends StatelessWidget {
               children: [
                 SizedBox(height: uHomePrimaryHeaderHeight + 20),
                 UPrimaryHeaderContainer(
+                  height: uHomePrimaryHeaderHeight,
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
@@ -28,7 +30,7 @@ class HomeScreen extends StatelessWidget {
                   height: 60,
                   // decoration: BoxDecoration(
                   //   borderRadius:
-        
+
                   // )
                 ),
               ],
@@ -41,8 +43,12 @@ class HomeScreen extends StatelessWidget {
                   SizedBox(height: uSpaceBtwSections),
                   USectionHeading(title: UTexts.popularCategories, onPress: () {}),
                   SizedBox(height: uSpaceBtwSections),
-        
-                  const UProductCardVertical(),
+                  UGridLayout(
+                    itemCount: 10,
+                    itemBuilder: (BuildContext context, int index) {
+                      return UProductCardVertical();
+                    },
+                  ),
                 ],
               ),
             ),

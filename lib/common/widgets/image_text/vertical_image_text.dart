@@ -1,4 +1,4 @@
-import 'package:firebase_getx/common/widgets/circuler_shapes/circular_container.dart';
+import 'package:firebase_getx/common/widgets/custom_shapes/circular_container.dart';
 import 'package:firebase_getx/utils/constants/imports.dart';
 
 class UVerticalImageText extends StatelessWidget {

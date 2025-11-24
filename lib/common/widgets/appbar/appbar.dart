@@ -3,14 +3,14 @@ import 'package:firebase_getx/utils/constants/imports.dart';
 class UAppBar extends StatelessWidget implements PreferredSizeWidget {
   const UAppBar({
     super.key,
-    required this.title,
+     this.title,
     this.showBackArrow = false,
     this.leadingIcon,
     this.action,
     this.leadingOnPress,
   });
 
-  final Widget title;
+  final Widget? title;
   final bool showBackArrow;
   final IconData? leadingIcon;
   final List<Widget>? action;

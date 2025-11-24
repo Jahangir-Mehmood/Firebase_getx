@@ -1,4 +1,4 @@
-import 'package:firebase_getx/common/widgets/circuler_shapes/clipper/custom_rounded_clipper.dart';
+import 'package:firebase_getx/common/widgets/custom_shapes/clipper/custom_rounded_clipper.dart';
 import 'package:flutter/widgets.dart';
 
 class URoundedEdgesContainer extends StatelessWidget {

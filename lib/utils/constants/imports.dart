@@ -26,5 +26,6 @@ export 'package:firebase_getx/common/widgets/products/product_cards/product_card
 export 'package:firebase_getx/common/widgets/texts/section_heading.dart';
 export 'package:firebase_getx/features/shop/screens/home/widgets/home_app_bar.dart';
 export 'package:firebase_getx/features/shop/screens/home/widgets/home_categories.dart';
-export 'package:firebase_getx/features/shop/screens/home/widgets/primary_header_container.dart';
+export 'package:firebase_getx/common/widgets/custom_shapes/primary_header_container.dart';
 export 'package:firebase_getx/features/shop/screens/home/widgets/promo_slider.dart';
+export 'package:firebase_getx/common/ui_text.dart';
