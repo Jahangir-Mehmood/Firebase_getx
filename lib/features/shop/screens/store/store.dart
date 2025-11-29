@@ -1,5 +1,6 @@
 import 'package:firebase_getx/common/widgets/appbar/tabbar.dart';
 import 'package:firebase_getx/common/widgets/brands/brand_card.dart';
+import 'package:firebase_getx/features/shop/screens/brands/all_brands.dart';
 import 'package:firebase_getx/features/shop/screens/store/widgets/category_tab.dart';
 import 'package:firebase_getx/features/shop/screens/store/widgets/store_primary_header.dart';
 import 'package:firebase_getx/utils/constants/imports.dart';
@@ -119,7 +120,7 @@ class StoreScreen extends StatelessWidget {
                         padding: const EdgeInsets.symmetric(horizontal: uDefaultSpace),
                         child: Column(
                           children: [
-                            USectionHeading(title: 'Brands', onPress: () {}),
+                            USectionHeading(title: 'Brands', onPress: ()=> Get.to(()=> BrandsScreen())),
                             SizedBox(
                               height: uBrandCardHeight,
                               child: ListView.separated(

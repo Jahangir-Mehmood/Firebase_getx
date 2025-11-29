@@ -1,5 +1,6 @@
 import 'package:firebase_getx/common/widgets/layouts/grid_layout.dart';
 import 'package:firebase_getx/features/shop/controllers/home/home_controller.dart';
+import 'package:firebase_getx/features/shop/screens/all_product/all_product.dart';
 import 'package:firebase_getx/utils/constants/imports.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -41,7 +42,7 @@ class HomeScreen extends StatelessWidget {
                 children: [
                   UPromoSlider(banners: [homeBanner1, homeBanner2, homeBanner3, homeBanner4, homeBanner5]),
                   SizedBox(height: uSpaceBtwSections),
-                  USectionHeading(title: UTexts.popularCategories, onPress: () {}),
+                  USectionHeading(title: UTexts.popularCategories, onPress: ()=> Get.to(()=> AllProductScreen())),
                   SizedBox(height: uSpaceBtwSections),
                   UGridLayout(
                     itemCount: 10,

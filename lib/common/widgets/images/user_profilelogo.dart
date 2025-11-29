@@ -1,4 +1,3 @@
-import 'package:firebase_getx/common/widgets/images/circular_image.dart';
 import 'package:firebase_getx/utils/constants/imports.dart';
 
 class UserProfileLogo extends StatelessWidget {

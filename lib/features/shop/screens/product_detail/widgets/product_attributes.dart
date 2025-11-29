@@ -1,7 +1,4 @@
 import 'package:firebase_getx/common/widgets/chips/choice_chip.dart';
-import 'package:firebase_getx/common/widgets/custom_shapes/rounded_container.dart';
-import 'package:firebase_getx/common/widgets/texts/product_price_text.dart';
-import 'package:firebase_getx/common/widgets/texts/product_title_text.dart';
 import 'package:firebase_getx/utils/constants/imports.dart';
 
 class UProductAttributes extends StatelessWidget {

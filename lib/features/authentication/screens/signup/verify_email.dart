@@ -29,7 +29,17 @@ class VerifyEmailScreen extends StatelessWidget {
                 textAlign: TextAlign.center,
               ),
               SizedBox(height: uSpaceBtwSections),
-              UElevatedButton(onPressed: () => Get.to(() => SuccessScreen()), child: Text(UTexts.uContinue)),
+              UElevatedButton(
+                onPressed: () => Get.to(
+                  () => SuccessScreen(
+                    title: 'UTexts.accountCreatedTitle,',
+                    subTitle: 'UnKnowPro@gmail.com',
+                    image: accountCreatedImage,
+                    onTap: () {},
+                  ),
+                ),
+                child: Text(UTexts.uContinue),
+              ),
               SizedBox(
                 width: double.infinity,
                 child: TextButton(onPressed: () {}, child: Text(UTexts.resendEmail)),

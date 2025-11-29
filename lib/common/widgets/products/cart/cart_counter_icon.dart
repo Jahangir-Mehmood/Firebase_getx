@@ -1,3 +1,4 @@
+import 'package:firebase_getx/features/shop/screens/cart/cart.dart';
 import 'package:firebase_getx/utils/constants/imports.dart';
 
 class UCardCounterIcon extends StatelessWidget {
@@ -23,7 +24,7 @@ class UCardCounterIcon extends StatelessWidget {
           ),
         ),
         IconButton(
-          onPressed: () {},
+          onPressed: ()=> Get.to(()=> CartScreen()),
           icon: Icon(Iconsax.shopping_bag, color: dark ? uDark : uWhite),
         ),
       ],

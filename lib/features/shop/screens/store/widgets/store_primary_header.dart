@@ -1,5 +1,3 @@
-import 'package:firebase_getx/common/widgets/appbar/appbar.dart';
-import 'package:firebase_getx/common/widgets/products/cart/cart_counter_icon.dart';
 import 'package:firebase_getx/utils/constants/imports.dart';
 
 class UStorePrimaryHeader extends StatelessWidget {

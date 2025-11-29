@@ -1,5 +1,3 @@
-import 'package:firebase_getx/common/widgets/appbar/appbar.dart';
-import 'package:firebase_getx/common/widgets/icons/circular_icon.dart';
 import 'package:firebase_getx/common/widgets/layouts/grid_layout.dart';
 import 'package:firebase_getx/navigation_menu.dart';
 import 'package:firebase_getx/utils/constants/imports.dart';

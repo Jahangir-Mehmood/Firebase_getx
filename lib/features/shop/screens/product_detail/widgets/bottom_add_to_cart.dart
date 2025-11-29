@@ -1,4 +1,3 @@
-import 'package:firebase_getx/common/widgets/icons/circular_icon.dart';
 import 'package:firebase_getx/utils/constants/imports.dart';
 
 class BottomAddToCart extends StatelessWidget {
@@ -20,10 +19,11 @@ class BottomAddToCart extends StatelessWidget {
           Text('2',style: Theme.of(context).textTheme.titleSmall),
           SizedBox(width: uSpaceBtwItems),
           UCircularIcon(icon: Iconsax.add,backgroundColor: uBlack,width: 40,height: 40,color: uWhite),
+          Spacer(),
           ElevatedButton(onPressed: (){},style: ElevatedButton.styleFrom(padding: EdgeInsets.all(uMd),backgroundColor: uBlack,side: BorderSide(color: uBlack)), child: Row(
             children: [
                Icon(Iconsax.shopping_bag),
-              //  SizedBox(width: ,)
+               SizedBox(width: uSpaceBtwItems /2),
               Text('Add to Cart'),
             ],
           ))

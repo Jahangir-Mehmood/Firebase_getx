@@ -1,9 +1,3 @@
-import 'package:firebase_getx/common/widgets/custom_shapes/rounded_container.dart';
-import 'package:firebase_getx/common/widgets/icons/circular_icon.dart';
-import 'package:firebase_getx/common/widgets/images/rounded_images.dart';
-import 'package:firebase_getx/common/widgets/texts/brand_title_with_verify_icon.dart';
-import 'package:firebase_getx/common/widgets/texts/product_price_text.dart';
-import 'package:firebase_getx/common/widgets/texts/product_title_text.dart';
 import 'package:firebase_getx/features/shop/screens/product_detail/product_detail.dart';
 import 'package:firebase_getx/utils/constants/imports.dart';
 

@@ -1,5 +1,4 @@
 import 'package:firebase_getx/common/widgets/brands/brand_card.dart';
-import 'package:firebase_getx/common/widgets/custom_shapes/rounded_container.dart';
 import 'package:firebase_getx/utils/constants/imports.dart';
 
 class UBrandShowcase extends StatelessWidget {

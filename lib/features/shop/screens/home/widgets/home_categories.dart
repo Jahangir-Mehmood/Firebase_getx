@@ -1,4 +1,5 @@
 import 'package:firebase_getx/common/widgets/image_text/vertical_image_text.dart';
+import 'package:firebase_getx/features/shop/screens/sub_category/sub_category.dart';
 import 'package:firebase_getx/utils/constants/imports.dart';
 
 class UHomeCategories extends StatelessWidget {
@@ -20,7 +21,7 @@ class UHomeCategories extends StatelessWidget {
               scrollDirection: Axis.horizontal,
               itemCount: 10,
               itemBuilder: (context, index) {
-                return UVerticalImageText(title: 'Style Sports', image: sportsIcon, textColor: uWhite);
+                return UVerticalImageText(title: 'Style Sports', image: sportsIcon, textColor: uWhite,onTap: ()=> Get.to(()=> SubCategoryScreen()),);
               },
             ),
           ),

@@ -29,3 +29,12 @@ export 'package:firebase_getx/features/shop/screens/home/widgets/home_categories
 export 'package:firebase_getx/common/widgets/custom_shapes/primary_header_container.dart';
 export 'package:firebase_getx/features/shop/screens/home/widgets/promo_slider.dart';
 export 'package:firebase_getx/common/ui_text.dart';
+export 'package:firebase_getx/common/widgets/appbar/appbar.dart';
+export 'package:firebase_getx/common/widgets/custom_shapes/rounded_container.dart';
+export 'package:firebase_getx/common/widgets/icons/circular_icon.dart';
+export 'package:firebase_getx/common/widgets/images/circular_image.dart';
+export 'package:firebase_getx/common/widgets/images/rounded_images.dart';
+export 'package:firebase_getx/common/widgets/texts/brand_title_with_verify_icon.dart';
+export 'package:firebase_getx/common/widgets/texts/product_price_text.dart';
+export 'package:firebase_getx/common/widgets/texts/product_title_text.dart';
+export 'package:firebase_getx/common/widgets/products/cart/cart_counter_icon.dart';

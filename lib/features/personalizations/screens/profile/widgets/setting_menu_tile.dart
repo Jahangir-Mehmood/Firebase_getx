@@ -1,4 +1,4 @@
-import 'package:firebase_getx/features/personalizations/screens/profile/edit_profile/edit_profile.dart';
+import 'package:firebase_getx/features/personalizations/screens/edit_profile/edit_profile.dart';
 import 'package:firebase_getx/utils/constants/imports.dart';
 
 class UserProfileTile extends StatelessWidget {
