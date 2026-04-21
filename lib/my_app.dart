@@ -12,7 +12,13 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: UAppTheme.lightTheme,
       darkTheme: UAppTheme.darkTheme,
-      home: OnboardingScreen(),
+      // home: OnboardingScreen(),
+      home: Scaffold(
+        backgroundColor: uPrimary,
+        body: Center(
+          child: CircularProgressIndicator(color: uWhite),
+        ),
+      ),
       // home: HomeScreen(),
     );
   }

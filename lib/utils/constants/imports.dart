@@ -38,3 +38,4 @@ export 'package:firebase_getx/common/widgets/texts/brand_title_with_verify_icon.
 export 'package:firebase_getx/common/widgets/texts/product_price_text.dart';
 export 'package:firebase_getx/common/widgets/texts/product_title_text.dart';
 export 'package:firebase_getx/common/widgets/products/cart/cart_counter_icon.dart';
+export 'package:get_storage/get_storage.dart';
